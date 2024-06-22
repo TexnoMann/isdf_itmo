@@ -15,6 +15,7 @@ services:
     stdin_open: true
     tty: true
     network_mode: host
+    privileged: true
     deploy:
       resources:
         reservations:
@@ -26,4 +27,4 @@ services:
       - /tmp/.X11-unix:/tmp/.X11-unix:rw
       - /etc/localtime:/etc/localtime:ro
       - /dev:/dev
-      - ./files/:/ros_ws/src/isdf_packages/
+      - ./lib/iSDF:/catkin_ws/src/iSDF

@@ -10,12 +10,8 @@ import shlex
 import subprocess
 
 
-def git_version():
-    cmd = 'git log --format="%h" -n 1'
-    return subprocess.check_output(shlex.split(cmd)).decode()
 
-
-version = git_version()
+version = "0.0.1"
 
 setup(
     name='incSDF',
