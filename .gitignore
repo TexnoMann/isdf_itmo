@@ -1,13 +1,13 @@
-libs/ORB_SLAM3/Examples
-libs/ORB_SLAM3/Examples_old
-libs/ORB_SLAM3/Vocabulary
+lib/ORB_SLAM3/Examples
+lib/ORB_SLAM3/Examples_old
+lib/ORB_SLAM3/Vocabulary
 
-libs/ORB_SLAM3/Thirdparty/DBoW2/build
-libs/ORB_SLAM3/Thirdparty/g2o/build
-libs/ORB_SLAM3/Thirdparty/build
+lib/ORB_SLAM3/Thirdparty/DBoW2/build
+lib/ORB_SLAM3/Thirdparty/g2o/build
+lib/ORB_SLAM3/Thirdparty/build
 
-libs/iSDF/isdf/res
-libs/iSDF/isdf/results/
+lib/iSDF/isdf/res
+lib/iSDF/isdf/results/
 
 todo.md
 
@@ -34,8 +34,6 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
-lib64/
 parts/
 sdist/
 var/
