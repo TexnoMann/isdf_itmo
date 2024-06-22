@@ -17,10 +17,7 @@ RUN apt update -y && apt install -y wget
 
 #catcin_make==
 RUN mkdir -p ~/catkin_ws/src
-# WORKDIR ~/catkin_ws/
 RUN cd ~/catkin_ws/ && catkin_make
-# RUN 
-
 
 
 #libs==========
