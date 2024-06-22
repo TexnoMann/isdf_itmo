@@ -1,262 +1,143 @@
-# # Ignore all
-# *
+libs/ORB_SLAM3/Examples
+libs/ORB_SLAM3/Examples_old
+libs/ORB_SLAM3/Vocabulary
 
-# # Unignore all with extensions
-# !*.*
+libs/ORB_SLAM3/Thirdparty/DBoW2/build
+libs/ORB_SLAM3/Thirdparty/g2o/build
+libs/ORB_SLAM3/Thirdparty/build
 
-# # Unignore all dirs
-# !*/
+libs/iSDF/isdf/res
+libs/iSDF/isdf/results/
 
-# CMakeLists.txt.user
-# CMakeLists_modified.txt
+todo.md
 
-# Examples/RGB-D/rgbd_tum
-# Examples/RGB-D/rgbd_realsense_D435i
+data/gt_sdfs
+data/seqs
+data/eval_pts
+data/realsense_franka
+data/**/**.mp4
+data/scannet_notes.txt
 
-# Examples/RGB-D-Inertial/rgbd_inertial_realsense_D435i
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
 
-# Examples/Monocular/mono_realsense_D435i
-# Examples/Monocular/mono_euroc
-# Examples/Monocular/mono_kitti
-# Examples/Monocular/mono_tum
-# Examples/Monocular/mono_tum_vi
-# Examples/Monocular/mono_realsense_t265
+# C extensions
+*.so
 
-# Examples/Stereo/stereo_euroc
-# Examples/Stereo/stereo_kitti
-# Examples/Stereo/stereo_tum_vi
-# Examples/Stereo/stereo_realsense_t265
-# Examples/Stereo/stereo_realsense_D435i
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-# Examples/Monocular-Inertial/mono_inertial_euroc
-# Examples/Monocular-Inertial/mono_inertial_tum_vi
-# Examples/Monocular-Inertial/mono_inertial_realsense_t265
-# Examples/Monocular-Inertial/mono_inertial_realsense_D435i
-# Examples/Monocular-Inertial/mono_inertial_realsense_D435i_2
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
 
-# Examples/Stereo-Inertial/stereo_inertial_euroc
-# Examples/Stereo-Inertial/stereo_inertial_tum_vi
-# Examples/Stereo-Inertial/stereo_inertial_realsense_t265
-# Examples/Stereo-Inertial/stereo_inertial_realsense_D435i
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
 
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
 
-# Examples/ROS/ORB_SLAM3/Mono
-# Examples/ROS/ORB_SLAM3/Mono_Inertial
-# Examples/ROS/ORB_SLAM3/MonoAR
-# Examples/ROS/ORB_SLAM3/RGBD
-# Examples/ROS/ORB_SLAM3/Stereo
-# Examples/ROS/ORB_SLAM3/Stereo_Inertial
+# Translations
+*.mo
+*.pot
 
-# Examples/Calibration/recorder_realsense_D435i
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
 
-# Examples/Tests/viewer_dataset
-# Examples/Tests/sophus_test
+# Flask stuff:
+instance/
+.webassets-cache
 
-# Examples/ROS/ORB_SLAM3/CMakeLists.txt.user
-# Examples/ROS/ORB_SLAM3/build/
+# Scrapy stuff:
+.scrapy
 
-# KeyFrameTrajectory.txt
-# CameraTrajectory.txt
-# kf_*.txt
-# f_*.txt
-# Thirdparty/DBoW2/build/
-# Thirdparty/DBoW2/lib/
-# Thirdparty/g2o/build/
-# Thirdparty/g2o/config.h
-# Thirdparty/g2o/lib/
-# Vocabulary/ORBvoc.txt
-# build/
+# Sphinx documentation
+docs/_build/
 
-# lib/
+# PyBuilder
+target/
 
-# cmake_modules/
-# cmake-build-debug/
+# Jupyter Notebook
+.ipynb_checkpoints
 
-# ExecMean.txt
-# SessionInfo.txt
-# Results_Euroc.txt
-# LBA_Stats.txt
-# LocalMapTimeStats.txt
-# TrackLocalMapStats.txt
-# TrackingTimeStats.txt
-# time*
-# Time*
-# Table_Euroc
-# Table_TUMVI_rooms/
-# *.pyc
-# *.osa
-# .idea/
-# my_settings.txt
+# IPython
+profile_default/
+ipython_config.py
 
-# borrar/*
+# pyenv
+.python-version
 
-# */ExecMean.txt
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
 
-# res
-# results/figs/
-# results/iSDF/batch_test
-# results/iSDF/robopen
-# results/kinectfusion+/
-# results/voxblox/
-# results/robopen/
+# celery beat schedule file
+celerybeat-schedule
 
-# todo.md
+# SageMath parsed files
+*.sage.py
 
-# data/gt_sdfs
-# data/seqs
-# data/eval_pts
-# data/realsense_franka
-# data/**/**.mp4
-# data/scannet_notes.txt
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 
-# isdf/datasets/examples/
+# Spyder project settings
+.spyderproject
+.spyproject
 
-# isdf/modules/idr.py
-# isdf/modules/pose_trainer.py
-# isdf/modules/active_sample.py
-# isdf/modules/exp_modules.py
+# Rope project settings
+.ropeproject
 
-# isdf/train/train_pose.py
-# isdf/train/batch_train/param_sweep.py
-# isdf/train/batch_train/jobs.py
-# isdf/train/configs/best_params.json
+# mkdocs documentation
+/site
 
-# isdf/eval/eval_pts_full_vol.py
-# isdf/eval/figs/voxblox_timing.py
-# isdf/eval/figs/traj_cost.py
-# isdf/eval/figs/ate_eval.py
-# isdf/eval/figs/sdf_loss.py
-# isdf/eval/figs/mesh_vis.py
-# isdf/eval/figs/accuracy_vs_time.py
-# isdf/eval/video
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
 
-# voxblox/time_eval.py
-# voxblox
-# kinectfusion+
-
-
-# # Byte-compiled / optimized / DLL files
-# __pycache__/
-# *.py[cod]
-# *$py.class
-
-# # C extensions
-# *.so
-
-# # Distribution / packaging
-# .Python
-# build/
-# develop-eggs/
-# dist/
-# downloads/
-# eggs/
-# .eggs/
-# lib/
-# lib64/
-# parts/
-# sdist/
-# var/
-# wheels/
-# pip-wheel-metadata/
-# share/python-wheels/
-# *.egg-info/
-# .installed.cfg
-# *.egg
-# MANIFEST
-
-# # PyInstaller
-# #  Usually these files are written by a python script from a template
-# #  before PyInstaller builds the exe, so as to inject date/other infos into it.
-# *.manifest
-# *.spec
-
-# # Installer logs
-# pip-log.txt
-# pip-delete-this-directory.txt
-
-# # Unit test / coverage reports
-# htmlcov/
-# .tox/
-# .nox/
-# .coverage
-# .coverage.*
-# .cache
-# nosetests.xml
-# coverage.xml
-# *.cover
-# .hypothesis/
-# .pytest_cache/
-
-# # Translations
-# *.mo
-# *.pot
-
-# # Django stuff:
-# *.log
-# local_settings.py
-# db.sqlite3
-
-# # Flask stuff:
-# instance/
-# .webassets-cache
-
-# # Scrapy stuff:
-# .scrapy
-
-# # Sphinx documentation
-# docs/_build/
-
-# # PyBuilder
-# target/
-
-# # Jupyter Notebook
-# .ipynb_checkpoints
-
-# # IPython
-# profile_default/
-# ipython_config.py
-
-# # pyenv
-# .python-version
-
-# # pipenv
-# #   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
-# #   However, in case of collaboration, if having platform-specific dependencies or dependencies
-# #   having no cross-platform support, pipenv may install dependencies that don't work, or not
-# #   install all needed dependencies.
-# #Pipfile.lock
-
-# # celery beat schedule file
-# celerybeat-schedule
-
-# # SageMath parsed files
-# *.sage.py
-
-# # Environments
-# .env
-# .venv
-# env/
-# venv/
-# ENV/
-# env.bak/
-# venv.bak/
-
-# # Spyder project settings
-# .spyderproject
-# .spyproject
-
-# # Rope project settings
-# .ropeproject
-
-# # mkdocs documentation
-# /site
-
-# # mypy
-# .mypy_cache/
-# .dmypy.json
-# dmypy.json
-
-# # Pyre type checker
-# .pyre/
-
-iSDF/data
+# Pyre type checker
+.pyre/
