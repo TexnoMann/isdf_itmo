@@ -1,6 +1,5 @@
 lib/ORB_SLAM3/Examples
 lib/ORB_SLAM3/Examples_old
-lib/ORB_SLAM3/Vocabulary
 
 lib/ORB_SLAM3/Thirdparty/DBoW2/build
 lib/ORB_SLAM3/Thirdparty/g2o/build

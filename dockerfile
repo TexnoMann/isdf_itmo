@@ -80,5 +80,3 @@ RUN echo "conda activate isdf">> ~/.bashrc
 
 RUN cd && pip3 install torch torchvision
 RUN pip install -e .
-
-RUN apt install -y ros-${ROS_DISTRO}-ur-robot-driver
